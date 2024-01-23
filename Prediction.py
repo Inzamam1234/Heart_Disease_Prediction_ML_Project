@@ -4,7 +4,7 @@ import streamlit as st
 import os
 
 # Loading the ML model Using pickle
-loaded_model = pickle.load(open('E:/Downloads/sav file/heart_disease_trained.sav', 'rb'))
+loaded_model = pickle.load(open('heart_disease_trained.sav', 'rb'))
 
 # Creating a function for Prediction
 def heart_disease_prediction(input_data):
