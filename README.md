@@ -1,72 +1,62 @@
-❤️ Heart Disease Prediction using Machine Learning
-This project is a Heart Disease Prediction System built with Python, trained on a healthcare dataset using Machine Learning algorithms, and deployed via a Streamlit web application.
+# ❤️ Heart Disease Prediction using Machine Learning
 
-📌 Overview
-Heart disease is a leading cause of death worldwide. Early prediction can save lives by prompting lifestyle changes or medical intervention. This ML model helps predict the likelihood of heart disease based on patient health metrics.
+This is a machine learning-based web application that predicts the risk of heart disease based on various health parameters. The model is trained using Python and deployed using **Streamlit** for easy access and interaction. The application is **live and accessible online**.
 
-🚀 Live Demo
-🌐 Try it out here: Live Streamlit App
+---
 
-(Replace the link with your actual deployment URL)
+## 🚀 Live Demo
 
-🧠 Model Details
-Language: Python
+👉 [Click here to try the live app](https://your-deployment-link-here)
 
-Model Type: Classification
+> ⚠️ Replace the above link with your actual deployment URL.
 
-Algorithm Used: (e.g., Logistic Regression / Random Forest / SVM)
+---
 
-Input Features: Age, Sex, Chest Pain Type, Blood Pressure, Cholesterol, etc.
+## 📌 Table of Contents
 
-Output: 0 (No Heart Disease) or 1 (Heart Disease)
+- [Overview](#-overview)
+- [Model Details](#-model-details)
+- [Project Structure](#-project-structure)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Technologies Used](#-technologies-used)
+- [Available Files](#-available-files)
+- [Contact](#-contact)
+- [License](#-license)
 
-📁 Project Structure
-bash
-Copy
-Edit
-heart-disease-prediction/
-│
-├── heart_disease_model.sav     # Saved ML model (pickle format)
-├── app.py                      # Streamlit application script
-├── requirements.txt            # Python dependencies
-└── README.md                   # Project documentation
-▶️ How to Run Locally
-1. Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/heart-disease-prediction.git
-cd heart-disease-prediction
-2. Install dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3. Run the Streamlit app
-bash
-Copy
-Edit
-streamlit run app.py
-🛠 Tools & Libraries
-Python 🐍
+---
 
-Scikit-learn
+## 📊 Overview
 
-Pandas & NumPy
+Heart disease is a major public health concern, and early detection is vital for prevention and treatment. This machine learning model analyzes key indicators to determine the likelihood of heart disease in a patient.
 
-Streamlit
+The model takes input features like:
+- Age
+- Sex
+- Chest Pain Type
+- Blood Pressure
+- Cholesterol
+- Blood Sugar
+- Resting ECG
+- Max Heart Rate
+- Exercise Induced Angina
+- ST Depression
+- Slope, Number of Major Vessels, Thalassemia, etc.
 
-Joblib / Pickle
+It predicts:
+- `0` – No Heart Disease
+- `1` – Likely to Have Heart Disease
 
-📦 Files Available
-app.py – Main Streamlit application file.
+---
 
-heart_disease_model.sav – Serialized ML model file.
+## 🧠 Model Details
 
-✅ Features
-User-friendly interface for health data input.
+- **Programming Language:** Python  
+- **Machine Learning Algorithm:** (e.g., Logistic Regression / Random Forest / SVM)  
+- **Model Format:** `.sav` (Serialized using `joblib` or `pickle`)  
+- **Deployment Platform:** Streamlit
 
-Predicts risk of heart disease instantly.
+---
 
-Easy to deploy and customize.
+## 📁 Project Structure
 
