@@ -19,8 +19,6 @@ This is a machine learning-based web application that predicts the risk of heart
 - [Usage](#-usage)
 - [Technologies Used](#-technologies-used)
 - [Available Files](#-available-files)
-- [Contact](#-contact)
-- [License](#-license)
 
 ---
 
