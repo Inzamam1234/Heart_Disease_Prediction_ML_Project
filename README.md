@@ -60,3 +60,47 @@ It predicts:
 
 ## 📁 Project Structure
 
+**heart-disease-prediction**/
+│
+├── app.py # Main Streamlit app
+├── heart_disease_model.sav # Pre-trained machine learning model
+├── requirements.txt # Required Python packages
+└── README.md # Project documentation
+
+
+---
+
+## 💻 Installation
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/heart-disease-prediction.git
+   cd heart-disease-prediction
+2. **Install dependencies**
+   pip install -r requirements.txt
+3. **Run the app**
+   streamlit run app.py
+
+**🔧 Technologies Used**
+-Python
+
+-Scikit-learn
+
+-Pandas & NumPy
+
+-Streamlit
+
+-Matplotlib / Seaborn (optional for visualization)
+
+-Pickle
+
+**📦 Available Files**
+app.py – Streamlit frontend that takes user input and displays the prediction.
+
+heart_disease_model.sav – Trained ML model file.
+
+requirements.txt – List of required Python libraries.
+
+README.md – Documentation file.
