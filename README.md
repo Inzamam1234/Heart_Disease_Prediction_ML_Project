@@ -6,9 +6,7 @@ This is a machine learning-based web application that predicts the risk of heart
 
 ## 🚀 Live Demo
 
-👉 [Click here to try the live app](https://your-deployment-link-here)
-
-> ⚠️ Replace the above link with your actual deployment URL.
+👉 https://lnkd.in/gyxf3d9c
 
 ---
 
@@ -60,8 +58,9 @@ It predicts:
 
 ## 📁 Project Structure
 
-**heart-disease-prediction**/
-│
+**heart-disease-prediction**
+
+
 ├── app.py # Main Streamlit app
 ├── heart_disease_model.sav # Pre-trained machine learning model
 ├── requirements.txt # Required Python packages
@@ -84,6 +83,7 @@ Follow these steps to run the project locally:
    streamlit run app.py
 
 **🔧 Technologies Used**
+
 -Python
 
 -Scikit-learn
@@ -97,6 +97,7 @@ Follow these steps to run the project locally:
 -Pickle
 
 **📦 Available Files**
+
 app.py – Streamlit frontend that takes user input and displays the prediction.
 
 heart_disease_model.sav – Trained ML model file.
